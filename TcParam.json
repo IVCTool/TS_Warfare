@@ -1,0 +1,23 @@
+{
+   "rtiHost": "192.168.205.103",
+   "federationName": "VBS",
+   "tcFederateName": "TC_0001_Warfare",
+   "sutFederateName": "VBS_DESKTOP-FJGI6I2_1fca5",
+   "sutFederateType": "VBSType",
+   "sutFederateJoinTimeout": 15.0,
+   "sutFederateResignTimeout": 15.0,
+   "testTimeout": 30.0,
+   "sleepTime": 1.0,
+   
+   
+   "urls": 
+           [     
+                 "C:/IVCT_Runtime/FOMS/RPR-Switches_v2.0.xml",
+                 "C:/IVCT_Runtime/FOMS/RPR-Base_v2.0.xml",
+                 "C:/IVCT_Runtime/FOMS/RPR-Warfare_v2.0.xml",
+                 "C:/IVCT_Runtime/FOMS/RPR-Foundation_v2.0.xml",
+                 "C:/IVCT_Runtime/FOMS/RPR-Enumerations_v2.0.xml",
+                 "C:/IVCT_Runtime/FOMS/RPR-Physical_v2.0.xml"
+           ]
+           
+}

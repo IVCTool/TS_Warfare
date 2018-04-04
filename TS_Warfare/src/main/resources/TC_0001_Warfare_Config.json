@@ -1,0 +1,31 @@
+{
+   "testWeaponFire": true,
+   "testMunitionDetonation": true,
+   "testForMatchingPair": true,
+   "testSutFederateJoin": true,
+   "testSutFederateResign": true,
+   "testMunitionInstance": true,
+   "testFOMs": true,
+   
+   "optionalParams":
+           [
+  				
+           ],
+           
+   "optionallyEmptyParams":
+           [
+  				"ArticulatedPartData"
+           ],
+           
+    "paramDecoders":
+           {
+				"EventIdentifier": "com.qinetiq.msg134.etc.tc_lib_warfare.decode.EventIdentifierStructDecoder",
+				"FiringLocation" : "com.qinetiq.msg134.etc.tc_lib_warfare.decode.WorldLocationStructDecoder" ,
+				"InitialVelocityVector":"com.qinetiq.msg134.etc.tc_lib_warfare.decode.VelocityVectorStructDecoder",
+				"DetonationLocation" : "com.qinetiq.msg134.etc.tc_lib_warfare.decode.WorldLocationStructDecoder",
+				"WarheadType": "com.qinetiq.msg134.etc.tc_lib_warfare.decode.WarheadTypeDecoder",
+				"DetonationResultCode": "com.qinetiq.msg134.etc.tc_lib_warfare.decode.DetonationResultCodeDecoder",
+				"MunitionType": "com.qinetiq.msg134.etc.tc_lib_warfare.decode.EventIdentifierStructDecoder"
+           }
+
+}
